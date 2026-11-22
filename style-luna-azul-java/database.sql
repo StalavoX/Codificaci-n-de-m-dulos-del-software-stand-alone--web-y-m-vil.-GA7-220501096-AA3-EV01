@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS style_luna_azul;
+
+USE style_luna_azul;
+
+CREATE TABLE IF NOT EXISTS clientes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    correo VARCHAR(120) NOT NULL UNIQUE,
+    telefono VARCHAR(20) NULL,
+    estado BOOLEAN DEFAULT TRUE
+);
