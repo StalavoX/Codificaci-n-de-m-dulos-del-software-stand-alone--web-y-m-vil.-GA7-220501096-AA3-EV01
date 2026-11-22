@@ -1,0 +1,33 @@
+{
+  "name": "style-luna-azul-web",
+  "version": "1.0.0",
+  "description": "Módulo web de gestión de citas para Style Luna Azul - Evidencia GA7-220501096-AA3-EV01 del programa ADSO SENA",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "node --test",
+    "check": "node --check app.js && node --check public/app.js"
+  },
+  "keywords": [
+    "sena",
+    "adso",
+    "express",
+    "mongodb",
+    "mongoose",
+    "crud",
+    "style-luna-azul"
+  ],
+  "author": "ADSO Aprendiz",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

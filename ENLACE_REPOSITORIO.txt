@@ -1,0 +1,20 @@
+================================================================================
+EVIDENCIA DE APRENDIZAJE: GA7-220501096-AA3-EV01
+Codificación de módulos del software stand-alone, web y móvil
+Programa: Análisis y Desarrollo de Software (ADSO) - SENA
+Proyecto: Sistema "Style Luna Azul"
+================================================================================
+
+ENLACES A LOS REPOSITORIOS DE CONTROL DE VERSIONES (GIT / GITHUB):
+
+1. MÓDULO STAND-ALONE (Java + MySQL):
+   https://github.com/MrJullios/style-luna-azul-java.git
+
+2. MÓDULO WEB (Node.js + Express + MongoDB + Tailwind CSS):
+   https://github.com/MrJullios/style-luna-azul-web.git
+
+--------------------------------------------------------------------------------
+INSTRUCCIONES DE ENTREGA:
+- Verifique que ambos repositorios cuenten con visibilidad pública en GitHub.
+- Cada módulo contiene su respectiva arquitectura (Desktop en Java y Web en Node.js).
+================================================================================
